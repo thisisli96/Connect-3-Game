@@ -6,6 +6,31 @@
 	android:layout_height="match_parent"
 	tools:context=".MainActivity">
 
+	<TextView
+		android:id="@+id/textviewwinner"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+
+		android:textSize="20dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/playagainbutton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dp"
+		android:text="Play Again"
+		android:textSize="20dp"
+		android:visibility="invisible"
+		android:onClick="playAgain"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.498"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
 	<GridLayout
 		android:id="@+id/gripLayout"
 
